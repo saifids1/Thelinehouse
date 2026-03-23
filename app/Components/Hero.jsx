@@ -104,12 +104,12 @@ import { Home } from "lucide-react";
 
 export default function Slider() {
   const slides = [
-    {
-      src: "/Images/Slider/mature-doctor-talking-nurse-about-diagnosis.jpg.jpeg",
-      title: "Innovative Pharma Solutions",
-      desc: "Advanced pharmaceutical products engineered for modern healthcare needs",
-      tag: "Pharmaceuticals",
-    },
+    // {
+    //   src: "/Images/Slider/mature-doctor-talking-nurse-about-diagnosis.jpg.jpeg",
+    //   title: "Innovative Pharma Solutions",
+    //   desc: "Advanced pharmaceutical products engineered for modern healthcare needs",
+    //   tag: "Pharmaceuticals",
+    // },
     {
       src: "/Images/Slider/bed.jpeg",
       title: "Hospital Excellence",

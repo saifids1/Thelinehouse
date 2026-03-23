@@ -43,12 +43,12 @@ export default function Footer() {
                 {/* <div className="bg-gradient-to-br from-green-600 to-blue-600 p-3 rounded-xl mr-4 shadow-lg">
                   <div className="text-2xl font-bold text-white">TLH</div>
                 </div> */}
-                <Image 
-                  src="/Images/Logo.jpeg" 
-                  alt='Logo'
-                  height={100}
-                  width={150}
-               />
+                <Image
+                  src="/Images/LH_Logo.png"
+                  alt="Logo"
+                  height={80}
+                  width={120}
+                />
                 {/* <div>
                   <h2 className="text-xl md:text-lg font-bold text-black">
                     THE LINEN HOUSE
@@ -143,14 +143,11 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-gray-900 leading-relaxed text-sm">
-                      The Royal Group of Industries,
-                      <br />
-                      P. No. 01 Hammallwadi MIDC,
-                      <br />
-                      Behind Railway Station,
+                      Shop no 1 , Patel complex , opposite Patel Lawns, Beed by
+                      pass road ,
                       <br />
                       <span className="text-black font-semibold">
-                        Aurangabad (M.S) 431 005
+                        Aurangabad 431 005
                       </span>
                     </p>
                   </div>
@@ -216,10 +213,9 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-           
           </div>
         </div>
       </div>
-      </footer>
+    </footer>
   );
 }

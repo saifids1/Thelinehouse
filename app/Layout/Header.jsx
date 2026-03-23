@@ -46,9 +46,7 @@ export default function Header() {
               className="flex items-center gap-2 hover:text-red-400 transition"
             >
               <FaPhoneAlt className="text-red-400" />
-              +91 96899 53953 |
-              +91 98239 27972 |
-              +91 92209 74779 
+              +91 70833 11655 | +91 87885 92066
             </a>
           </div>
 
@@ -92,16 +90,16 @@ export default function Header() {
       </div>
 
       {/* Main Navbar */}
-      <header className="sticky top-0 z-50 theameGradient border-b border-gray-400">
+      <header className="sticky top-0 z-50 bg-white border-b border-gray-400">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="flex items-center justify-between py-2">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/Images/Logo.jpeg"
+                src="/Images/LH_Logo.png"
                 alt="Feyre Pharma Logo"
-                height={60}
-                width={120}
+                height={40}
+                width={40}
                 className="object-contain"
               />
             </Link>
@@ -112,7 +110,7 @@ export default function Header() {
                 <div key={item.name} className="relative group">
                   <Link
                     href={item.href}
-                    className="flex items-center gap-2 text-black font-medium tracking-wide hover:text-white  transition relative"
+                    className="flex items-center gap-2 text-black font-medium tracking-wide hover:text-green-700  transition relative"
                   >
                     {item.name}
                     {item.hasDropdown && (
@@ -120,7 +118,7 @@ export default function Header() {
                     )}
 
                     {/* underline effect */}
-                    <span className="absolute left-0 -bottom-2 w-0 h-[2px] bg-gradient-to-r from-green-600 to-red-500 group-hover:w-full transition-all duration-300"></span>
+                    <span className="absolute left-0 -bottom-2 w-0 h-0.5 bg-gradient-to-r from-green-600 to-red-500 group-hover:w-full transition-all duration-300"></span>
                     {/* bg-gradient-to-r from-green-600 */}
                   </Link>
 
@@ -196,7 +194,7 @@ export default function Header() {
                   className="flex items-center gap-3 text-gray-600 hover:text-green-700 transition"
                 >
                   <FaPhoneAlt className="text-green-600" />
-                  +91 0000 0000
+                  +91 70833 11655 |+91 87885 92066 
                 </a>
 
                 <a

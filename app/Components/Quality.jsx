@@ -102,10 +102,9 @@ export default function Quality() {
                       <HiBuildingOffice2  style={{fontSize : "12px"}}/>
                   </span>
                   <span>
-                    Office: The Royal Group of Industries, P. No. 01 Hammallwadi
-                    MIDC,
+                    Office: Shop no 1 , Patel complex , opposite Patel Lawns,
                     <br />
-                    Behind Railway Station,Aurangabad (M.S) 431 005
+                     Beed by pass road , Aurangabad 
                   </span>
                 </li>
               </ul>

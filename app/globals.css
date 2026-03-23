@@ -45,7 +45,7 @@ body {
 
 .theameGradient {
 background: #4BD6F2;
-background: linear-gradient(90deg, rgba(75, 214, 242, 1) 0%, rgba(49, 204, 191, 1) 35%, rgba(10, 166, 20, 1) 72%, rgba(2, 122, 28, 1) 100%) !important;
+background: linear-gradient(90deg, rgba(75, 214, 242, 1) 0%, rgba(49, 204, 191, 1) 35%, rgba(10, 166, 20, 1) 72%, rgb(6, 140, 35) 100%) !important;
 }
 
 .theametext {
