@@ -139,7 +139,7 @@ export default function Footer() {
               <div className="space-y-5">
                 <div className="flex items-start">
                   <div className="w-10 h-10 bg-white/50 backdrop-blur flex items-center justify-center rounded-xl mr-4 mt-1 shadow-md">
-                    <FaMapMarkerAlt className="text-green-700" />
+                    <FaMapMarkerAlt className="text-green-700 m-2" />
                   </div>
                   <div>
                     <p className="text-gray-900 leading-relaxed text-sm">
