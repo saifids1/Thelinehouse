@@ -143,8 +143,8 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-gray-900 leading-relaxed text-sm">
-                      Shop no 1 , Patel complex , opposite Patel Lawns, Beed by
-                      pass road ,
+                      Shop no 02, Patel complex, opposite Patel Lawns, Beed by
+                      pass road, 
                       <br />
                       <span className="text-black font-semibold">
                         Aurangabad 431 005

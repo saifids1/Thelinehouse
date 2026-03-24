@@ -11,12 +11,12 @@ export default function Features() {
   const features = [
     {
       icon: <FaIndustry />,
-      title: "Latest Manufacturing",
+      title: "Use Of Latest Manufacturing Techniques",
       description: "Modern technology for precision & efficiency",
     },
     {
       icon: <FaUserTie />,
-      title: "Expert Professionals",
+      title: "Expert & Experienced Professionals",
       description: "Designers, tailors & quality analysts",
     },
     {
@@ -26,7 +26,7 @@ export default function Features() {
     },
     {
       icon: <FaShieldAlt />,
-      title: "Superior Fabrics",
+      title: "Superior & Branded fabrics",
       description: "Branded fabrics for durability & feel",
     },
     {
@@ -36,7 +36,7 @@ export default function Features() {
     },
     {
       icon: <FaPalette />,
-      title: "Various Designs",
+      title: "Various Designs & Patterns",
       description: "Multiple patterns for diverse needs",
     },
   ];

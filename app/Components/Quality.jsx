@@ -128,7 +128,7 @@ export default function Quality() {
                 <div>
                   <p className="text-gray-600">Call:</p>
                   <p className="font-semibold text-gray-900">
-                    +91 96899 53953 | +91 98239 27972 | +91 92209 74779
+                    +91 96899 53959 | +91 98239 27972 | +91 92209 74779
                   </p>
                 </div>
 
