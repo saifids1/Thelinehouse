@@ -97,9 +97,9 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/Images/LH_Logo.png"
-                alt="Feyre Pharma Logo"
-                height={40}
-                width={40}
+                alt="Linen House Logo"
+                height={200}
+                width={200}
                 className="object-contain"
               />
             </Link>

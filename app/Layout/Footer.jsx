@@ -39,15 +39,15 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
             {/* Company Info */}
             <div>
-              <div className="flex items-center justify-center mb-6 gap-2">
+              <div className="flex items-center justify-center mb-6 gap-2 me-12">
                 {/* <div className="bg-gradient-to-br from-green-600 to-blue-600 p-3 rounded-xl mr-4 shadow-lg">
                   <div className="text-2xl font-bold text-white">TLH</div>
                 </div> */}
                 <Image
                   src="/Images/LH_Logo.png"
                   alt="Logo"
-                  height={80}
-                  width={120}
+                  height={230}
+                  width={230}
                 />
                 {/* <div>
                   <h2 className="text-xl md:text-lg font-bold text-black">
