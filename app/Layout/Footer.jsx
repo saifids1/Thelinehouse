@@ -21,8 +21,8 @@ export default function Footer() {
 
   const services = [
     "Hospital Wears",
-    "Industrial Wears",
-    "Hotel Wears",
+    // "Industrial Wears",
+    // "Hotel Wears",
     "Corporate Wears",
     "Uniform Fabrics",
     "Custom Embroidery",
@@ -68,13 +68,13 @@ export default function Footer() {
               {/* Social Media */}
               <div className="flex space-x-3">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/1Ce5ic7eHG/"
                   className="w-10 h-10 bg-white/50 backdrop-blur flex items-center justify-center rounded-xl hover:bg-gradient-to-br hover:from-green-600 hover:to-blue-500 transition-all duration-300 shadow-md"
                 >
                   <FaFacebook className="text-black hover:text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/thelinenhouse99?igsh=MXZvbzlrZXB1YzNpZw=="
                   className="w-10 h-10 bg-white/50 backdrop-blur flex items-center justify-center rounded-xl hover:bg-gradient-to-br hover:from-green-600 hover:to-blue-500 transition-all duration-300 shadow-md"
                 >
                   <FaInstagram className="text-black hover:text-white" />
@@ -159,7 +159,8 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-gray-800 text-sm">Call us at</p>
-                    <p className="text-black font-semibold">+91 96899 53959</p>
+                    <p className="text-black font-semibold">  +91 87885 92066 </p>
+                    <p className="text-black font-semibold">  +91 70833 11655</p>
                   </div>
                 </div>
 

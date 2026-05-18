@@ -155,7 +155,7 @@ export default function About() {
             {/* Extra mini card */}
             <div className="bg-white/70 backdrop-blur-xl border border-white/50 rounded-2xl p-4 shadow-sm ">
               <p className="text-gray-800 font-semibold text-center text-sm">
-                Trusted by hospitals, hotels, industries & corporate brands.
+               Hospitals, Individual + Corrporate.
               </p>
             </div>
           </div>

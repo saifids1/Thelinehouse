@@ -78,24 +78,24 @@ export default function Quality() {
             {/* Locations */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                Stock Locations
+                Address
               </h3>
               <div className="w-16 h-1 theameGradient mx-0 mt-3 mb-4 rounded-full"></div>
 
               <ul className="space-y-2 text-gray-800 text-sm">
-                <li className="flex items-start gap-2">
+                {/* <li className="flex items-start gap-2">
                   <span className="theameGradient text-white w-6 h-6 flex items-center justify-center rounded-full text-sm font-bold">
                     <FaMapMarkerAlt className="text-white"  style={{fontSize : "12px"}} />
                   </span>
                   <span>Railway Station Hammalwadi MIDC</span>
-                </li>
+                </li> */}
 
-                <li className="flex items-start gap-2">
+                {/* <li className="flex items-start gap-2">
                   <span className="theameGradient text-white w-6 h-6 flex items-center justify-center rounded-full text-sm font-bold">
                       <FaMapMarkerAlt className="text-white"  style={{fontSize : "12px"}} />
                   </span>
                   <span>Stock home, Shendra MIDC</span>
-                </li>
+                </li> */}
 
                 <li className="flex items-start gap-2">
                   <span className="theameGradient text-white w-6 h-6 flex items-center justify-center rounded-full text-sm font-bold">
@@ -128,7 +128,7 @@ export default function Quality() {
                 <div>
                   <p className="text-gray-600">Call:</p>
                   <p className="font-semibold text-gray-900">
-                    +91 96899 53953 | +91 98239 27972 | +91 92209 74779
+                      +91 87885 92066 | +91 70833 11655
                   </p>
                 </div>
 

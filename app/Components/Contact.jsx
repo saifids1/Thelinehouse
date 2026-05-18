@@ -89,7 +89,7 @@ export default function Contact() {
                 <select className="w-full px-3 py-2 text-sm bg-white/90 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
                   <option value="">Select a service</option>
                   <option value="hospital">Hospital Wears</option>
-                  <option value="industrial">Industrial Wears</option>
+                  <option value="industrial"></option>
                   <option value="hotel">Hotel Wears</option>
                   <option value="corporate">Corporate Wears</option>
                   <option value="fabrics">Fabrics Supply</option>

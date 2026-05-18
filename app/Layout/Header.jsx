@@ -46,7 +46,7 @@ export default function Header() {
               className="flex items-center gap-2 hover:text-red-400 transition"
             >
               <FaPhoneAlt className="text-red-400" />
-              +91 70833 11655 | +91 87885 92066
+              +91 87885 92066 | +91 70833 11655
             </a>
           </div>
 
@@ -57,7 +57,7 @@ export default function Header() {
             </span>
 
             <Link
-              href=""
+              href="https://www.facebook.com/share/1Ce5ic7eHG/"
               target="_blank"
               className="p-2 rounded-full hover:bg-white/10 hover:text-blue-400 transition"
             >
@@ -72,7 +72,7 @@ export default function Header() {
             </Link>
 
             <Link
-              href=""
+              href="https://www.instagram.com/thelinenhouse99?igsh=MXZvbzlrZXB1YzNpZw=="
               target="_blank"
               className="p-2 rounded-full hover:bg-white/10 hover:text-pink-400 transition"
             >
@@ -129,8 +129,10 @@ export default function Header() {
                       <div className="bg-white rounded-lg py-2 shadow-xl border border-gray-100 overflow-hidden">
                         {[
                           "Hospital Wears",
-                          "Industrial Wears",
-                          "Hotel Wears",
+                          // "Industrial Wears",
+                          "Separate Ophthalmology  linen ",
+                          "Separate Gynecologist Linen",
+                          "Separate Dental Linen",
                           "Corporate Wears",
                         ].map((subItem) => (
                           <Link
