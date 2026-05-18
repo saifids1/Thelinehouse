@@ -137,7 +137,7 @@ export default function Header() {
                         ].map((subItem) => (
                           <Link
                             key={subItem}
-                            href={item.href}
+                            href="/products/hospitalWears"
                             className="relative block px-5 py-3 pl-8 text-gray-600 font-medium transition-all duration-300
             hover:bg-gray-100 hover:text-gray-900 hover:translate-x-1
             before:absolute before:left-0 before:top-0 before:h-full before:w-1
@@ -196,7 +196,7 @@ export default function Header() {
                   className="flex items-center gap-3 text-gray-600 hover:text-green-700 transition"
                 >
                   <FaPhoneAlt className="text-green-600" />
-                  +91 70833 11655 |+91 87885 92066 
+                  +91 9689953959 | +91 9823927972 | +91 9220974779 
                 </a>
 
                 <a

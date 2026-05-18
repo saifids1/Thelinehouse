@@ -11,13 +11,13 @@ import Footer from "@/app/Layout/Footer";
 export default function Home() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <Hero/>
     {/* <Services/> */}
     <About/>
     <Features/>
     <Quality/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }

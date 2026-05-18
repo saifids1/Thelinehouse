@@ -60,3 +60,16 @@ background: linear-gradient(90deg, rgba(75, 214, 242, 1) 0%, rgba(49, 204, 191, 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.services .card .card-container{
+  position: relative;
+}
+.services .card .card-container .curtain-image{
+  position: absolute;
+     top: 30px;
+    right: 45px;
+}
+.services .card .card-container .curtain-image2{
+  position: absolute;
+       top: 25px;
+    right: 30px;
+}

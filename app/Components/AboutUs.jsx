@@ -26,8 +26,10 @@ export default function About() {
           </h2>
 
           <p className="max-w-2xl mx-auto text-gray-800 text-sm md:text-base leading-relaxed">
-            Manufacturer & supplier of premium fabrics, hospital linen, corporate uniforms,
-            and custom apparel solutions with 15+ years of expertise.
+            is a distinguished entity engaged in manufacturing & supplier of a broad range of all types of fabrics & different aprons of industries.
+          </p>
+          <p className="max-w-2xl mx-auto text-gray-800 text-sm md:text-base leading-relaxed">
+            We are manufacturer and supplier of uniform fabrics in polyester/viscose polyester/100% cotton and many more. We also ensure transparency of business ethics at all stages and implement quality standards are parallel to the international quality uniforms. The workforce of the company comprises of qualifies professionals like designers, quality analysts, research staff, tailors, supervisors and marketing executives
           </p>
 
           <div className="w-16 h-1 theameGradient mx-auto mt-4 rounded-full"></div>
@@ -121,8 +123,8 @@ export default function About() {
               </div>
 
               <p className="text-gray-800 text-sm leading-relaxed">
-                To offer high quality products and innovative solutions to corporate clients
-                for uniforms and work wear requirements.
+                To offer high quality products and solutions to corporate
+                for their uniforms and work wear.
               </p>
             </div>
 
