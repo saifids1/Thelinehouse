@@ -183,7 +183,7 @@ export default function Header() {
                   key={item.name}
                   href={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="block px-4 py-3 rounded-xl text-white font-medium hover:bg-gray-50 hover:text-green-700 transition"
+                  className="block px-4 py-3 rounded-xl text-black font-medium hover:bg-gray-50 hover:text-green-700 transition"
                 >
                   {item.name}
                 </Link>
@@ -196,7 +196,7 @@ export default function Header() {
                   className="flex items-center gap-3 text-gray-600 hover:text-green-700 transition"
                 >
                   <FaPhoneAlt className="text-green-600" />
-                  +91 9689953959 | +91 9823927972 | +91 9220974779 
+                      +91 87885 92066 | +91 70833 11655 
                 </a>
 
                 <a
