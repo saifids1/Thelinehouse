@@ -130,9 +130,9 @@ export default function Header() {
                         {[
                           "Hospital Wears",
                           // "Industrial Wears",
-                          "Separate Ophthalmology  linen ",
-                          "Separate Gynecologist Linen",
-                          "Separate Dental Linen",
+                          "Ophthalmology  linen ",
+                          "Gynecologist Linen",
+                          "Dental Linen",
                           "Corporate Wears",
                         ].map((subItem) => (
                           <Link
