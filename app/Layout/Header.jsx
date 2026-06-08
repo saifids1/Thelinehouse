@@ -128,14 +128,26 @@ export default function Header() {
                     <div className="absolute top-full left-0 mt-4 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
                       <div className="bg-white rounded-lg py-2 shadow-xl border border-gray-100 overflow-hidden">
                         {[
-                          "Hospital Wears",
-                          "Industrial Wears",
-                          "Hotel Wears",
-                          "Corporate Wears",
+                          {
+                            page: "Hospital Wears",
+                            link: "/products/hospital-wear",
+                          },
+                          {
+                            page: "Industrial Wears",
+                            link: "/products/hospital-wear",
+                          },
+                          {
+                            page: "Hotel Wears",
+                            link: "/products/hospital-wear",
+                          },
+                          {
+                            page: "Corporate Wears",
+                            link: "/products/corporate-wear",
+                          },
                         ].map((subItem) => (
                           <Link
-                            key={subItem}
-                            href="/products/hospitalWears"
+                            key={subItem.page}
+                            href={subItem.link}
                             className="relative block px-5 py-3 pl-8 text-gray-600 font-medium transition-all duration-300
             hover:bg-gray-100 hover:text-gray-900 hover:translate-x-1
             before:absolute before:left-0 before:top-0 before:h-full before:w-1
@@ -143,7 +155,7 @@ export default function Header() {
             before:opacity-0 before:transition-opacity before:duration-300
             hover:before:opacity-100"
                           >
-                            {subItem}
+                            {subItem.page}
                           </Link>
                         ))}
                       </div>
@@ -194,7 +206,7 @@ export default function Header() {
                   className="flex items-center gap-3 text-gray-600 hover:text-green-700 transition"
                 >
                   <FaPhoneAlt className="text-green-600" />
-                  +91 9689953959 | +91 9823927972 | +91 9220974779 
+                  +91 9689953959 | +91 9823927972 | +91 9220974779
                 </a>
 
                 <a

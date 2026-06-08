@@ -29,7 +29,7 @@
 //   return (
 //     <>
 //     <div className="w-full">
-//       <Swiper 
+//       <Swiper
 //        modules={[Autoplay ,Pagination , Navigation]}
 //        autoplay={{ delay: 3500, disableOnInteraction: false}}
 //        loop={true}
@@ -41,7 +41,7 @@
 //           slides.map((slide,index)=>(
 //             <SwiperSlide>
 //             <div className=" relative w-full h-[250px] sm:h-[400px] lg:h-[520px]">
-//               <Image 
+//               <Image
 //                  src={slide.src}
 //                  title={slide.title}
 //                  alt={slide.alt}
@@ -63,31 +63,12 @@
 //           ))}
 //       </Swiper>
 
-      
-
 //     </div>
 //     </>
 //   )
 // }
 
 // export default Slider;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 "use client";
 
@@ -117,10 +98,16 @@ export default function Slider() {
       tag: "Medical Equipment",
     },
     {
-      src: "/Images/Slider/lot-different-folded-clothes-perfectly-arranged-closet-marie-kondo-konmari-method-concept.jpg.jpeg",
+      src: "/Images/Slider/s2.jpeg",
       title: "Quality & Precision",
       desc: "Manufactured with exacting standards for reliable healthcare delivery",
       tag: "Quality Assurance",
+    },
+    {
+       src: "/Images/Slider/Apron.jpg",
+      title: "Premium Hospital Linen",
+      desc: "Soft, hygienic & durable linen for hospitals & clinics",
+      tag: "Healthcare",
     },
   ];
 
@@ -252,14 +239,19 @@ export default function Slider() {
       </div>
 
       {/* Pagination Style */}
-      <style jsx >{`
+      <style jsx>{`
         .swiper-pagination-bullet {
           background: rgba(255, 255, 255, 0.4) !important;
           opacity: 1 !important;
         }
 
         .swiper-pagination-bullet-active {
-          background: linear-gradient(to right, #22c55e, #3b82f6, #ef4444) !important;
+          background: linear-gradient(
+            to right,
+            #22c55e,
+            #3b82f6,
+            #ef4444
+          ) !important;
           width: 22px;
           border-radius: 20px;
         }

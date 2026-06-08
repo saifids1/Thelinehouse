@@ -24,7 +24,7 @@ const ServicePage = () => {
             <div
               className="card-container p-8"
               style={{
-                backgroundImage: "url('/images/s1.png')",
+                backgroundImage: "url('/Images/s1.png')",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "55%",
                 backgroundPosition: "90% 50%",
